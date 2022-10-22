@@ -2,16 +2,20 @@
   <HelloWorld msg="Welcome to Your Vue.js App"/>
   <hr>
   <TextInterpolation />
+  <hr>
+  <CoMputed />
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
 import TextInterpolation from './components/TextInterpolation.vue'
+import CoMputed from './components/CoMputed.vue'
 
 export default {
   name: 'App',
   components: {
     HelloWorld,
+    CoMputed,
     TextInterpolation
   }
 }
