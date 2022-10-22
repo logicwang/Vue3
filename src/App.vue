@@ -4,18 +4,22 @@
   <TextInterpolation />
   <hr>
   <CoMputed />
+  <hr>
+  <ClassStyle/>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
 import TextInterpolation from './components/TextInterpolation.vue'
 import CoMputed from './components/CoMputed.vue'
+import ClassStyle from './components/ClassStyle.vue'
 
 export default {
   name: 'App',
   components: {
     HelloWorld,
     CoMputed,
+    ClassStyle,
     TextInterpolation
   }
 }
