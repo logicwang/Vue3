@@ -50,7 +50,7 @@ export default {
     },
 
   },
-  
+
   methods: {
     calculateBooksMessage() {
       return this.author.books.length > 0 ? "Yes" : "No"; // 计算属性缓存 vs 方法
