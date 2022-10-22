@@ -1,14 +1,18 @@
 <template>
   <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <hr>
+  <TextInterpolation />
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import TextInterpolation from './components/TextInterpolation.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    TextInterpolation
   }
 }
 </script>
