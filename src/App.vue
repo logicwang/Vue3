@@ -6,12 +6,15 @@
   <CoMputed />
   <hr>
   <ClassStyle/>
+  <hr>
+  <ConditionalRendering/>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
 import TextInterpolation from './components/TextInterpolation.vue'
 import CoMputed from './components/CoMputed.vue'
+import ConditionalRendering from './components/ConditionalRendering.vue'
 import ClassStyle from './components/ClassStyle.vue'
 
 export default {
@@ -20,6 +23,7 @@ export default {
     HelloWorld,
     CoMputed,
     ClassStyle,
+    ConditionalRendering,
     TextInterpolation
   }
 }
