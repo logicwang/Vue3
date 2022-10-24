@@ -1,4 +1,5 @@
 <template>
+  <!-- 列表渲染 -->
   <HelloWorld msg="Welcome to Your Vue.js App"/>
   <hr>
   <TextInterpolation />
@@ -8,6 +9,8 @@
   <ClassStyle/>
   <hr>
   <ConditionalRendering/>
+  <hr>
+  <ListRendering />
 </template>
 
 <script>
@@ -16,6 +19,7 @@ import TextInterpolation from './components/TextInterpolation.vue'
 import CoMputed from './components/CoMputed.vue'
 import ConditionalRendering from './components/ConditionalRendering.vue'
 import ClassStyle from './components/ClassStyle.vue'
+import ListRendering from './components/ListRendering.vue'
 
 export default {
   name: 'App',
@@ -24,7 +28,8 @@ export default {
     CoMputed,
     ClassStyle,
     ConditionalRendering,
-    TextInterpolation
+    TextInterpolation,
+    ListRendering
   }
 }
 </script>
